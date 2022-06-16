@@ -8,8 +8,6 @@ Table of Contents
    * [Supported file extensions](#supported-file-extensions)
    * [Installing all the dependencies](#Installing-all-the-dependencies)
    * [Running Metadata Extraction Script](#running-metadata-extraction-script)
-   * [Example of running](#example-of-running)
-   * [Extended features](#extended-features)
 
 
 ## Minimal requirements:
@@ -38,28 +36,10 @@ If you want to run a script on an existing file you need to use the "--file_path
 	
 OR
 
-If you want to download via S3 link, use the "--s3_link" option
-
-	python run_metadata_extraction --s3_link {s3_link}
-
-For more information about the various command line options use `run_metadata_extraction.py --help`.
-
-
-## Example of running
-
-	python run_metadata_extraction --file_path path_to_document.pdf
-	
-	
-## Extended features
-
-If you want to run a script with an S3 link, you need to create a .aws folder in the /home directive and a file called "credentials". After that, enter the credentials themselves.
-
-OR
-
-Basic **command line usage**:
-
-	aws configure
-
-After that file with the credentials will be generated and saved in $HOME/.aws/credentials for Unix-based systems or in %UserProfile%\ .aws\credentials for Windows.
+If you want to download via S3 link, you need to create a .aws folder in the /home directive and a file called "credentials". After that, enter the credentials themselves. Or use in CLI `aws configure`, after that file with the credentials will be generated and saved in $HOME/.aws/credentials for Unix-based systems or in %UserProfile%\ .aws\credentials for Windows.
 For datails see:
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
+
+use the "--s3_link" option
+
+	python run_metadata_extraction --s3_link {s3_link}
