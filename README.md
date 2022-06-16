@@ -27,6 +27,8 @@ Table of Contents
 
 ## Supported file extensions
 
+We support these files:
+
 	*PNG (.png)
 	*DOC (.docx or .doc)
 	*JPEG (.jpg or .jpeg)
