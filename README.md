@@ -28,11 +28,12 @@ Table of Contents
 ## Supported file extensions
 
 We support these files:
-	*PNG (.png)
-	*DOC (.docx or .doc)
-	*JPEG (.jpg or .jpeg)
-	*TXT (.txt)
-	*PDFs (.pdf)
+
+	* PNG (.png)
+	* DOC (.docx or .doc)
+	* JPEG (.jpg or .jpeg)
+	* TXT (.txt)
+	* PDFs (.pdf)
 
 ## Installing all the dependencies
 
