@@ -20,13 +20,7 @@ Table of Contents
 
 ## Supported file extensions
 
-We support these files:
-
-* PNG (.png)
-* DOC (.docx or .doc)
-* JPEG (.jpg or .jpeg)
-* TXT (.txt)
-* PDFs (.pdf)
+We support the next extensions - ['.png', '.jpg', '.jpeg', '.docx', '.doc', '.txt', '.pdf']
 
 ## Installing all the dependencies
 
@@ -38,7 +32,11 @@ Basic **command line usage**:
 
 Basic **command line usage**:
     
-	run_metadata_extraction.py [path_to_document]
+	python run_metadata_extraction --file_path {path_to_file}
+	
+OR
+
+	python run_metadata_extraction --s3_link {s3_link}
 
 For more information about the various command line options use `run_metadata_extraction.py --help`.
 
@@ -58,6 +56,6 @@ Basic **command line usage**:
 
 	aws configure
 
-After that file with the credentials will be generated and saved in $HOME/.aws/credentials for Unix-based systems or in %UserProfile%\.aws\credentials for Windows.
+After that file with the credentials will be generated and saved in $HOME/.aws/credentials for Unix-based systems or in %UserProfile%\ .aws\credentials for Windows.
 For datails see:
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
