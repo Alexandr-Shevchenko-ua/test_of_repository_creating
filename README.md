@@ -5,6 +5,7 @@ Table of Contents
 
 * [Metadata Extraction Script](#metadata-extraction-script)
    * [Minimal requirements](#minimal-requirements)
+   * [Supported file extensions](#supported-file-extensions)
    * [Installing all the dependencies](#Installing-all-the-dependencies)
    * [Running Metadata Extraction Script](#running-metadata-extraction-script)
    * [Example of running](#example-of-running)
@@ -24,6 +25,14 @@ Table of Contents
 	* 4 GB RAM
 	* 5 GB free disk space
 
+## Supported file extensions
+
+*PNG (.png)
+*DOC (.docx or .doc)
+*JPEG (.jpg or .jpeg)
+*TXT (.txt)
+*PDFs (.pdf)
+
 ## Installing all the dependencies
 
 Basic **command line usage**:
@@ -34,14 +43,14 @@ Basic **command line usage**:
 
 Basic **command line usage**:
     
-	run_metadata_extraction.py [path_to_pdf_file]
+	run_metadata_extraction.py [path_to_document]
 
 For more information about the various command line options use `run_metadata_extraction.py --help`.
 
 
 ## Example of running
 
-	run_metadata_extraction.py ExampleOfPdfFile.pdf
+	run_metadata_extraction.py path_to_document.pdf
 	
 	
 ## Extended features
