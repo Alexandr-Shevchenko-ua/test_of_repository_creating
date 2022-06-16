@@ -47,7 +47,7 @@ For more information about the various command line options use `run_metadata_ex
 
 ## Example of running
 
-	run_metadata_extraction.py path_to_document.pdf
+	python run_metadata_extraction --file_path path_to_document.pdf
 	
 	
 ## Extended features
