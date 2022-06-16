@@ -32,9 +32,13 @@ Basic **command line usage**:
 
 Basic **command line usage**:
     
+If you want to run a script on an existing file you need to use the "--file_path" option
+	
 	python run_metadata_extraction --file_path {path_to_file}
 	
 OR
+
+If you want to download via S3 link, use the "--s3_link" option
 
 	python run_metadata_extraction --s3_link {s3_link}
 
