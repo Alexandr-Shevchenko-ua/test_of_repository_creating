@@ -13,8 +13,7 @@ Table of Contents
 
 ## Minimal requirements:
 * **Installed:**
-	* Python: 3.9
-	* Pip(package management system for Python software packages.): the newest
+	* Anaconda: latest
 
 
 ## Supported file extensions
