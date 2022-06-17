@@ -10,6 +10,7 @@ Table of Contents
    * [Running Metadata Extraction Script](#running-metadata-extraction-script)
 
 
+
 ## Minimal requirements:
 * **Installed:**
 	* Python: 3.9
@@ -22,9 +23,40 @@ We support the next extensions - ['.png', '.jpg', '.jpeg', '.docx', '.doc', '.tx
 
 ## Installing all the dependencies
 
+### For Linux
+
+1. Install or update Anaconda for Linux. See details in chapter "Installing on Linux" in: https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#installing-on-linux
+
 Basic **command line usage**:
 
+	conda create -n metadata_extraction python=3.9
+	
+	activate metadata_extraction
+	
 	pip install -r requirements.txt
+	
+### For Windows
+
+1. Install or update Anaconda for Linux. See details in chapter "Installing on Windows" in: https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html#installing-on-windows
+
+2. Download tesseract tesseract-ocr-w32-setup-v5.1.0.20220510.exe (32 bit) OR tesseract-ocr-w64-setup-v5.1.0.20220510.exe (64 bit): https://github.com/UB-Mannheim/tesseract/wiki
+
+3. Install tesseract tesseract-ocr-w32-setup-v5.1.0.20220510.exe (32 bit) OR tesseract-ocr-w64-setup-v5.1.0.20220510.exe (64 bit)
+
+4. Add environment variable TESSDATA_PREFIX with the folder value "tessdata" in the path to the installed tesseract(default path for TESSDATA_PREFIX: "C:\Program Files\Tesseract-OCR\tessdata")
+
+5. Open Anaconda Prompt
+
+Basic **command line usage**:
+
+	conda create -n metadata_extraction python=3.9
+	
+	activate metadata_extraction
+	
+	conda install -c conda-forge tesserocr
+	
+	pip install -r requirements.txt
+
 
 ## Running Metadata Extraction Script
 
