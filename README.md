@@ -4,16 +4,9 @@ Table of Contents
 =================
 
 * [Metadata Extraction Script](#metadata-extraction-script)
-   * [Minimal requirements](#minimal-requirements)
    * [Supported file extensions](#supported-file-extensions)
    * [Installing all the dependencies](#Installing-all-the-dependencies)
    * [Running Metadata Extraction Script](#running-metadata-extraction-script)
-
-
-
-## Minimal requirements:
-* **Installed:**
-	* Anaconda: latest
 
 
 ## Supported file extensions
